@@ -91,7 +91,7 @@
             bindings = <
  &kp EQUAL  &kp F1  &kp F2                  &kp F3                   &kp F4  &kp F5            &trans                                                                                                   &mo 3  &kp F6             &kp F7        &kp F8        &kp F9       &kp F10    &kp F11
    &kp TAB   &none   &none                   &none                    &none   &none             &none                                                                                                   &none   &none       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS    &kp F12
-   &kp ESC   &none   &none            &kp K_VOL_DN             &kp K_VOL_UP   &none             &none  &kp LEFT_COMMAND          &kp LALT                      &kp RIGHT_ALT  &kp RIGHT_COMMAND         &none   &none       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp KP_PLUS    &kp SQT
+   &kp ESC   &none   &none            &kp C_VOL_DN             &kp C_VOL_UP   &none             &none  &kp LEFT_COMMAND          &kp LALT                      &kp RIGHT_ALT  &kp RIGHT_COMMAND         &none   &none       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp KP_PLUS    &kp SQT
  &kp LSHFT   &none   &none                   &kp C                    &kp V   &none                                      &kp LEFT_CONTROL                  &kp RIGHT_CONTROL                                    &none       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ENTER  &kp RSHFT
     &trans  &trans  &trans  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))                    &trans            &trans            &trans                             &trans          &kp ENTER  &kp NUMBER_0          &kp LG(LA(ENTER))        &trans       &kp DOT        &trans     &trans
             >;
