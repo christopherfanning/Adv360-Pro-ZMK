@@ -21,6 +21,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
+    #include "version.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
@@ -63,7 +64,7 @@
     &trans  &trans  &trans        &trans        &trans  &trans             &none                                                         &none  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &trans  &kp F12
     &trans  &trans  &trans  &kp C_VOL_DN  &kp C_VOL_UP  &trans             &none  &trans  &trans                  &trans  &trans         &none  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &trans   &trans
     &trans  &trans  &trans        &trans        &trans  &trans                            &trans                  &trans                        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &trans   &trans
-    &trans  &trans  &trans        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &kp NUMBER_0                &trans        &trans        &trans   &trans   &trans
+    &trans  &trans  &trans        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &kp NUMBER_0                &trans        &trans    &kp PERIOD   &trans   &trans
             >;
         };
 
