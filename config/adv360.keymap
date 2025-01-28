@@ -90,11 +90,11 @@
 
         layer_modmac {
             bindings = <
- &kp EQUAL  &kp F1  &kp F2                  &kp F3                   &kp F4                 &kp F5            &trans                                                                                                   &mo 3  &kp F6             &kp F7        &kp F8        &kp F9       &kp F10    &kp F11
-   &kp TAB   &none   &none                   &none     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS             &none                                                                                                   &none   &none       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS    &kp F12
-   &kp ESC   &none   &none                   &none           &kp LEFT_BRACE        &kp RIGHT_BRACE             &none  &kp LEFT_COMMAND          &kp LALT                      &kp RIGHT_ALT  &kp RIGHT_COMMAND         &none   &none       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp KP_PLUS    &kp SQT
- &kp LSHFT   &none   &none                   &none         &kp LEFT_BRACKET      &kp RIGHT_BRACKET                                      &kp LEFT_CONTROL                  &kp RIGHT_CONTROL                                    &none       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ENTER  &kp RSHFT
-    &trans  &trans  &trans  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))                                   &trans            &trans            &trans                             &trans          &kp ENTER  &kp NUMBER_0          &kp LG(LA(ENTER))        &trans       &kp DOT        &trans     &trans
+ &kp EQUAL  &kp F1  &kp F2                  &kp F3                   &kp F4  &kp F5            &trans                                                                                                   &mo 3  &kp F6             &kp F7        &kp F8        &kp F9       &kp F10    &kp F11
+   &kp TAB   &none   &none    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS   &none             &none                                                                                                   &none   &none       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS    &kp F12
+   &kp ESC   &none   &none          &kp LEFT_BRACE          &kp RIGHT_BRACE   &none             &none  &kp LEFT_COMMAND          &kp LALT                      &kp RIGHT_ALT  &kp RIGHT_COMMAND         &none   &none       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp KP_PLUS    &kp SQT
+ &kp LSHFT   &none   &none        &kp LEFT_BRACKET        &kp RIGHT_BRACKET   &none                                      &kp LEFT_CONTROL                  &kp RIGHT_CONTROL                                    &none       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ENTER  &kp RSHFT
+    &trans  &trans  &trans  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))                    &trans            &trans            &trans                             &trans          &kp ENTER  &kp NUMBER_0          &kp LG(LA(ENTER))        &trans       &kp DOT        &trans     &trans
             >;
         };
 
